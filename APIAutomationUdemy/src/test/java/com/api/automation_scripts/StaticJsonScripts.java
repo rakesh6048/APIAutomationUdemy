@@ -37,6 +37,8 @@ public class StaticJsonScripts {
 	public void validateAddPlaceAPIInStatic() {
 
 		//Content of the file to String > content of file can convert into Byte > Byte data to String
+		//Content of the file to String > content of file can convert into Byte > Byte data to String
+
 
 		try {		
 			RestAssured.baseURI = "https://rahulshettyacademy.com";

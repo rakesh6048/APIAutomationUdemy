@@ -17,6 +17,7 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 
 
+
 public class GoogleAPITestScrpts {
 
 	//Add place API;
@@ -59,7 +60,7 @@ public class GoogleAPITestScrpts {
 			        .when().put("maps/api/place/update/json")
 			        .then().log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
 			
-			//Validate Get Pace API working as expected or not
+			//Validate Get Place API working as expected or not
 			
 			String getPlaceResponse =given().log().all().queryParam("key", "qaclick123").queryParams("place_id", place_ID).header("Content-Type", "application/json")
 		        .when().get("maps/api/place/get/json")
@@ -70,6 +71,8 @@ public class GoogleAPITestScrpts {
 			 System.out.println(actualAddress);
 			 
 			 Assert.assertEquals(actualAddress, newAddress);
+			 
+			 //
 			 
 			 
 
