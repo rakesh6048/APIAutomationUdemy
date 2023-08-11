@@ -63,7 +63,6 @@ public class Payload {
 
   public static String Addbook(String isbn, String aisle) {
 	  
-	  //String addBookPayload ="{\r\n" + "\r\n" + "\"name\":\"Learn Appium Automation with Java\",\r\n" + "\"isbn\":\""+isbn+"\",\r\n" + "\"aisle\":\""+aisle+"\",\r\n" + "\"author\":\"John foe\"\r\n" + "} \r\n" + "";
 	  String addBookPayload ="{\r\n" + 
 	  		"\"name\":\"Learn Appium Automation with Java\",\r\n" + 
 	  		"\"isbn\":\""+isbn+"\",\r\n" + 
@@ -74,7 +73,21 @@ public class Payload {
 	  return addBookPayload;
   }
 
-
-
+ public static String createNewIssue()
+ {
+	 return "{\r\n"
+	 		+ "	\"fields\": {\r\n"
+	 		+ "		\"project\": \r\n"
+	 		+ "		{\r\n"
+	 		+ "			\"key\": \"AUT\"\r\n"
+	 		+ "		},\r\n"
+	 		+ "		\"summary\": \"Defect in Yes Bank Hpme Page\",\r\n"
+	 		+ "		\"description\": \"Creating of an issue using project keys and issue type names using the Rest API\",\r\n"
+	 		+ "		\"issuetype\": {\r\n"
+	 		+ "			\"name\": \"Bug\"\r\n"
+	 		+ "		}\r\n"
+	 		+ "	}\r\n"
+	 		+ "}";
+ }
 
 }

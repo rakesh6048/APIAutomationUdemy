@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.automation_scripts.DynamicJsonScripts">
+      <class name="com.api.automation_scripts.JiraTestScripts">
         <methods>
-          <include name="addBook" invocation-numbers="0 1 2"/>
+          <include name="createSessionAddComment"/>
         </methods>
-      </class> <!-- com.api.automation_scripts.DynamicJsonScripts -->
+      </class> <!-- com.api.automation_scripts.JiraTestScripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
