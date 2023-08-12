@@ -18,12 +18,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -37,8 +37,8 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/AutomationRestAssured_Practice"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/DemoForPractice"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/LatestAPIAutomation"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/AutomationRestAssured_Practice"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/DemoForPractice"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/LatestAPIAutomation"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
