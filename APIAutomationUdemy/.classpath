@@ -37,7 +37,7 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry combineaccessrules="false" kind="src" path="/APIAutomationRestAssured"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/AutomationRestAssured_Practice"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/DemoForPractice"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/LatestAPIAutomation"/>
 	<classpathentry kind="output" path="target/classes"/>
