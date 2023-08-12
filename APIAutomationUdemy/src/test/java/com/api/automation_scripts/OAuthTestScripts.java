@@ -20,7 +20,7 @@ public class OAuthTestScripts {
 		try {
 			
 		//Hit the url in browser and get the url as string
-			WebDriverManager.chromedriver().setup();
+			/*WebDriverManager.chromedriver().setup();
 			WebDriver driver = new ChromeDriver();
 			
 			driver.get("https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.email&auth_url=https://accounts.google.com/o/oauth2/v2/auth&client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com&response_type=code&redirect_uri=https://rahulshettyacademy.com/getCourse.php");
@@ -30,13 +30,14 @@ public class OAuthTestScripts {
 			//driver.findElement(By.xpath("//div[contains(text(),'Use another account')]")).click();
 			
 			driver.findElement(By.cssSelector("input[type='email']")).sendKeys("rakesh.s6048@gmail.com");
+			driver.findElement(By.xpath("(//span[contains(text(),'Next')]")).click();
 			driver.findElement(By.cssSelector("input[type='password']")).sendKeys("Photon@1993");
 			
 			driver.findElement(By.xpath("(//div[@class='VfPpkd-Jh9lGc'])[2]")).click();
 			
-			String url = driver.getCurrentUrl();
+			String url = driver.getCurrentUrl();*/
 			
-			//String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0Adeu5BXKUvVi4N135WCnolcZndiAbMmt2AX_GF9SfJ8ag4L02Ik8zhaZ2f0edMEplFnG3Q&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent";
+			String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0Adeu5BXhCBAZtRsACnp90jwd5fCfZUNGWels_s95jh-e1_CWUR0fIWGMe05i8KAgfnW5Og&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
 			
 		    String partialCode = url.split("code=")[1];
 		    String code = partialCode.split("&scope")[0];

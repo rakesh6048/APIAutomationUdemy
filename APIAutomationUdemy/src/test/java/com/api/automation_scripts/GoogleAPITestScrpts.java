@@ -23,7 +23,7 @@ public class GoogleAPITestScrpts {
 	//Add place API;
 	//public static String place_ID;
 
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void validateAddPlaceAPI() {
         
 		//String place_ID;
